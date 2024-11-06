@@ -125,10 +125,15 @@ fi
 print "Moving static files to the deploy dir"
 mkdir -p $DEPLOY_DIR
 ls
-cat $SOURCE_DIR
-cat $DEPLOY_DIR
+echo "SOURCE_DIR"
+echo $SOURCE_DIR
+echo "DEPLOY_DIR"
+echo $DEPLOY_DIR
+echo "ls SOURCE_DIR"
 ls $SOURCE_DIT
+echo "ls SOURCE_DIR/build"
 ls $SOURCE_DIT/build
+echo "ls SOURCE_DIR/build/web"
 ls $SOURCE_DIT/build/web
 
 
