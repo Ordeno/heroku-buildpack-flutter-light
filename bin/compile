@@ -124,15 +124,26 @@ fi
 
 print "Moving static files to the deploy dir"
 mkdir -p $DEPLOY_DIR
+echo "dart --version"
+echo $(dart --version)
+echo "dart --version"
+echo $(flutter --version)
+echo "============================================="
+echo "ls"
 ls
+echo "============================================="
 echo "SOURCE_DIR"
 echo $SOURCE_DIR
+echo "============================================="
 echo "DEPLOY_DIR"
 echo $DEPLOY_DIR
+echo "============================================="
 echo "ls SOURCE_DIR"
 ls $SOURCE_DIR
+echo "============================================="
 echo "ls SOURCE_DIR/build"
 ls $SOURCE_DIR/build
+echo "============================================="
 echo "ls SOURCE_DIR/build/web"
 ls $SOURCE_DIR/build/web
 
